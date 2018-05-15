@@ -102,11 +102,7 @@ var checkCollision = function(anEnemy) {
 };
 
 // Something happens when player wins
-if (player.y + 63 <= 0) {        
-    player.x = 202.5;
-    player.y = 383;
-    console.log('you made it!');
-}
+
 
 // Increase number of enemies on screen based on player's score
 var increaseDifficulty = function(numEnemies) {
