@@ -59,6 +59,9 @@ Player.prototype.update = function() {
     
         //when player reaching to top 
         if (this.y < 0) {
+            
+            //Something happens when player wins
+            alert('Congratulations! You won 😏 .');
             this.x = 200;
             this.y = 380;
         }
